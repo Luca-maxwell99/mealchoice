@@ -1,1 +1,2 @@
-web: gunicorn mealchoice.wsgi
+release: python3 manage.py mirgate
+web: gunicorn mealchoice.wsgi --log-file=-
