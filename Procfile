@@ -1,2 +1,2 @@
-release: python3 manage.py mirgate
+release: python3 manage.py migrate
 web: gunicorn mealchoice.wsgi --log-file=-
